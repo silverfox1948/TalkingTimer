@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+			 xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+			 x:Class="TalkingTimer.View.TalkingTimer">
+	<StackLayout Orientation="Vertical">
+		<Label Text="Set Timer" HorizontalOptions="CenterAndExpand" FontSize="Large" />
+		<Label x:Name="lblTimer" Text="{Binding Path=ElapsedSeconds, Mode=OneWay}" HorizontalOptions="CenterAndExpand" FontSize="100"/>
+		<Button x:Name="btnStartPauseTimer" Command="{Binding Path=StartPauseResumeTimer}" Text="{Binding Path=StartButtonText, Mode=OneWay}" />
+		<Button x:Name="btnStopTimer" Command="{Binding Path=StopTimer}" Text="Stop Timer" />
+		<Button x:Name="btnResetTimer" Command="{Binding Path=ResetTimer}" Text="Reset Timer" />
+	</StackLayout>
+</ContentPage>

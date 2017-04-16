@@ -9,7 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TalkingTimer", "TalkingTime
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TalkingTimer.UWP", "TalkingTimer\TalkingTimer.UWP\TalkingTimer.UWP.csproj", "{5D4E2161-848C-42E5-A061-B7C1CD0C1C53}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TalkingTimer.iOS", "TalkingTimer\TalkingTimer.iOS\TalkingTimer.iOS.csproj", "{5F23575C-02AE-4C19-9438-1278A3803756}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{2EF5F04B-AB58-4A76-B887-8AF5CC9A2B9F}"
+	ProjectSection(SolutionItems) = preProject
+		Readme.md = Readme.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -219,38 +222,6 @@ Global
 		{5D4E2161-848C-42E5-A061-B7C1CD0C1C53}.Release|x86.ActiveCfg = Release|x86
 		{5D4E2161-848C-42E5-A061-B7C1CD0C1C53}.Release|x86.Build.0 = Release|x86
 		{5D4E2161-848C-42E5-A061-B7C1CD0C1C53}.Release|x86.Deploy.0 = Release|x86
-		{5F23575C-02AE-4C19-9438-1278A3803756}.Ad-Hoc|Any CPU.ActiveCfg = Ad-Hoc|iPhone
-		{5F23575C-02AE-4C19-9438-1278A3803756}.Ad-Hoc|ARM.ActiveCfg = Ad-Hoc|iPhone
-		{5F23575C-02AE-4C19-9438-1278A3803756}.Ad-Hoc|iPhone.ActiveCfg = Ad-Hoc|iPhone
-		{5F23575C-02AE-4C19-9438-1278A3803756}.Ad-Hoc|iPhone.Build.0 = Ad-Hoc|iPhone
-		{5F23575C-02AE-4C19-9438-1278A3803756}.Ad-Hoc|iPhoneSimulator.ActiveCfg = Ad-Hoc|iPhoneSimulator
-		{5F23575C-02AE-4C19-9438-1278A3803756}.Ad-Hoc|iPhoneSimulator.Build.0 = Ad-Hoc|iPhoneSimulator
-		{5F23575C-02AE-4C19-9438-1278A3803756}.Ad-Hoc|x64.ActiveCfg = Ad-Hoc|iPhone
-		{5F23575C-02AE-4C19-9438-1278A3803756}.Ad-Hoc|x86.ActiveCfg = Ad-Hoc|iPhone
-		{5F23575C-02AE-4C19-9438-1278A3803756}.AppStore|Any CPU.ActiveCfg = AppStore|iPhone
-		{5F23575C-02AE-4C19-9438-1278A3803756}.AppStore|ARM.ActiveCfg = AppStore|iPhone
-		{5F23575C-02AE-4C19-9438-1278A3803756}.AppStore|iPhone.ActiveCfg = AppStore|iPhone
-		{5F23575C-02AE-4C19-9438-1278A3803756}.AppStore|iPhone.Build.0 = AppStore|iPhone
-		{5F23575C-02AE-4C19-9438-1278A3803756}.AppStore|iPhoneSimulator.ActiveCfg = AppStore|iPhoneSimulator
-		{5F23575C-02AE-4C19-9438-1278A3803756}.AppStore|iPhoneSimulator.Build.0 = AppStore|iPhoneSimulator
-		{5F23575C-02AE-4C19-9438-1278A3803756}.AppStore|x64.ActiveCfg = AppStore|iPhone
-		{5F23575C-02AE-4C19-9438-1278A3803756}.AppStore|x86.ActiveCfg = AppStore|iPhone
-		{5F23575C-02AE-4C19-9438-1278A3803756}.Debug|Any CPU.ActiveCfg = Debug|iPhone
-		{5F23575C-02AE-4C19-9438-1278A3803756}.Debug|ARM.ActiveCfg = Debug|iPhone
-		{5F23575C-02AE-4C19-9438-1278A3803756}.Debug|iPhone.ActiveCfg = Debug|iPhone
-		{5F23575C-02AE-4C19-9438-1278A3803756}.Debug|iPhone.Build.0 = Debug|iPhone
-		{5F23575C-02AE-4C19-9438-1278A3803756}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
-		{5F23575C-02AE-4C19-9438-1278A3803756}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
-		{5F23575C-02AE-4C19-9438-1278A3803756}.Debug|x64.ActiveCfg = Debug|iPhone
-		{5F23575C-02AE-4C19-9438-1278A3803756}.Debug|x86.ActiveCfg = Debug|iPhone
-		{5F23575C-02AE-4C19-9438-1278A3803756}.Release|Any CPU.ActiveCfg = Release|iPhone
-		{5F23575C-02AE-4C19-9438-1278A3803756}.Release|ARM.ActiveCfg = Release|iPhone
-		{5F23575C-02AE-4C19-9438-1278A3803756}.Release|iPhone.ActiveCfg = Release|iPhone
-		{5F23575C-02AE-4C19-9438-1278A3803756}.Release|iPhone.Build.0 = Release|iPhone
-		{5F23575C-02AE-4C19-9438-1278A3803756}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
-		{5F23575C-02AE-4C19-9438-1278A3803756}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
-		{5F23575C-02AE-4C19-9438-1278A3803756}.Release|x64.ActiveCfg = Release|iPhone
-		{5F23575C-02AE-4C19-9438-1278A3803756}.Release|x86.ActiveCfg = Release|iPhone
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-
+﻿
 using Xamarin.Forms;
 
 namespace TalkingTimer
@@ -12,8 +8,8 @@ namespace TalkingTimer
 		public App()
 		{
 			InitializeComponent();
-
-			MainPage = new TalkingTimer.MainPage();
+			//MainPage = new SlowBurn.App.MainPage();
+			MainPage = new TalkingTimer.View.TalkingTimer();
 		}
 
 		protected override void OnStart()
